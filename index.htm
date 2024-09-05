@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="./style.css">
+   <link rel="shortcut icon" href="./images/tab-logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="side-bar">
+        <div class="sidebar-nav">
+            <div class="logo">
+                <a href="#"><img src="./images/logo-new.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="#">
+                    <span><i class="fa-solid fa-house"></i></span>
+                    <span>Home</span>
+                </a></li>
+                
+                 <li><a href="#">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></i></span>
+                    <span>Search</span>
+                </a></li>
+                <li></li>
+            </ul>
+        </div>
+        <!-- 2nd box -->
+        <div class="sidebar-nav box2">
+           
+            <ul>
+                <li><a href="#">
+                    <span><i class="fa-solid fa-book"></i></span>
+                    <span class="Library">Your Library</span>
+                </a></li>
+                <li>
+                    <div class="sidebar-scroll">
+                        <div class="create-platlist">
+                            <h4>
+                                Create your first playlist
+                            </h4>
+                            <p>It's easy, we'll help you</p>
+                            <button>Create Playlist</button>
+                        </div>
+                        <!-- 2 playlist -->
+                        <div class="create-platlist">
+                            <h4>
+                                Let's find some podcasts to follow
+                            </h4>
+                            <p>We'll keep you updated on new episodes</p>
+                            <button>Browse podcasts</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="privacy">
+                <ul>
+                    <li>
+                        <a href="#">Legal</a>
+                        <a href="#">Safety&Privacy Center</a>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Cookies</a>
+                        <a href="#">About Ads</a>
+                        <a href="#">Accessibility</a>
+                    </li>
+                    <li>
+                        <a href="#">Cookies</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- btn -->
+             <div class="btn">
+                <button>English</button>
+             </div>
+        </div>
+
+    </div>
+
+    <!-- main section -->
+
+    <div class="main-section">
+        <div class="top-nav">
+            <div class="prec-btn">
+                <button><i class="fa-solid fa-chevron-left"></i></button>
+                <button><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="login-btn">
+                <button class="sign-up">Sign Up</button>
+                <button class="login">Login</button>
+
+            </div>
+        </div>
+        <!-- main section body -->
+        <div class="spotify-playlist">
+            <h2>Popular artists</h2>
+            <div class="card">
+                <!-- 1st item -->
+                <div class="item">
+                    <img id="artist1"  src="./images/a1.jpeg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Pritam</h4>
+                    <p>Artist</p>
+                </div>
+                <!-- 2 item -->
+                <div class="item">
+                    <img id="artist2" src="./images/a2.jpeg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>A.R. Rahman</h4>
+                    <p>Artist</p>
+                </div>
+                <!-- 3rd item -->
+                <div class="item">
+                    <img id="artist3" src="./images/a3.jpeg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Arijit Singh</h4>
+                    <p>Artist</p>
+                </div>
+                <!-- 4th item -->
+                <div class="item">
+                    <img id="artist4" src="./images/a4.jpeg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Sachin-Jigar</h4>
+                    <p>Artist</p>
+                </div>
+                <!-- 5th item -->
+                <div class="item">
+                    <img id="artist5" src="./images/a6.jpeg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Atif Aslam</h4>
+                    <p>Artist</p>
+                </div>
+            </div>
+        </div>
+         <!-- 2nd one -->
+          
+        <div class="spotify-playlist">
+            <h2>Popular Album</h2>
+            <div class="card">
+                <!-- 1st item -->
+                <div class="item">
+                    <img src="./images/item-6.jpg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>ANIMAL</h4>
+                    <p>Manan Bhardwaj, Vishal Mishra, Jaani</p>
+                </div>
+                <!-- 2 item -->
+                <div class="item">
+                    <img src="./images/item-7.jpg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Still Rollin</h4>
+                    <p>Shubh</p>
+                </div>
+                <!-- 3rd item -->
+                <div class="item">
+                    <img src="./images/item-8.jpg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Husn</h4>
+                    <p>Anuv Jain</p>
+                </div>
+                <!-- 4th item -->
+                <div class="item">
+                    <img src="./images/item-9.jpg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Moosetape</h4>
+                    <p>Sidhu Moose Wala</p>
+                </div>
+                <!-- 5th item -->
+                <div class="item">
+                    <img src="./images/item-10.jpg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Satranga</h4>
+                    <p>Arijit Singh, Shreyas Puranik, Siddharth</p>
+                </div>
+            </div>
+        </div>
+        <!-- section 3 -->
+        <div class="spotify-playlist">
+            <h2>Popular radio</h2>
+            <div class="card">
+                <!-- 1st item -->
+                <div class="item">
+                    <img src="./images/s3-1" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Arijit Singh Radio</h4>
+                    <p>With Neha Kakkar, Pritam, KK and more</p>
+                </div>
+                <!-- 2 item -->
+                <div class="item">
+                    <img src="./images/s3-2" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Kishore Kumar Radio</h4>
+                    <p>With Mohammed Rafi, Asha Bhosle, R. D. Burman and more</p>
+                </div>
+                <!-- 3rd item -->
+                <div class="item">
+                    <img src="./images/s3-3" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>A.R. Rahman Radio</h4>
+                    <p>with Anirudh Ravichander, pritam and more</p>
+                </div>
+                <!-- 4th item -->
+                <div class="item">
+                    <img src="./images/s3-4" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Diljit Dosanjh Radio</h4>
+                    <p>With Garry Sandhu, Ranjit Bawa, Amrinder Gill and more</p>
+                </div>
+                <!-- 5th item -->
+                <div class="item">
+                    <img src="./images/s3-5" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Shreya Ghoshal Radio</h4>
+                    <p>With Sonu Nigam, Sunidhi Chauhan, Shaan and more</p>
+                </div>
+            </div>
+        </div>
+        <!-- section-4 -->
+        <div class="spotify-playlist">
+            <h2>Spotify Playlists</h2>
+            <div class="card">
+                <!-- 1st item -->
+                <div class="item">
+                    <img src="./images/s4.jpeg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Throwback Thursday</h4>
+                    <p>#SpotifyTBT goes acoustic. 2000s acoustic. Cover: John Mayer</p>
+                </div>
+                <!-- 2 item -->
+                <div class="item">
+                    <img src="./images/s4-2.jpeg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Acoustic Throwbacks</h4>
+                    <p>Big hits from the world of acoustics.</p>
+                </div>
+                <!-- 3rd item -->
+                <div class="item">
+                    <img src="./images/s4-3.jpeg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>2010s Hip-Hop</h4>
+                    <p>Taking it back to the 2010s. Cover: Young Thug</p>
+                </div>
+                <!-- 4th item -->
+                <div class="item">
+                    <img src="./images/s4-4.jpeg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Moosetape</h4>
+                    <p>Sidhu Moose Wala</p>
+                </div>
+                <!-- 5th item -->
+                <div class="item">
+                    <img src="./images/s4-5.jpeg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>2000s Hip-Hop</h4>
+                    <p>Taking it back to the 2000s. Cover: Crime Mob</p>
+                </div>
+            </div>
+        </div>
+        <!-- section-5 -->
+
+        <div class="spotify-playlist">
+            <h2>Trending Episodes</h2>
+            <div class="card">
+                <!-- 1st item -->
+                <div class="item">
+                    <img src="./images/s5-1.jpeg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Welcome back, RJ Balaji - Naallanaa Murukku</h4>
+                    <p>Jun 2021.15 min</p>
+                </div>
+                <!-- 2 item -->
+                <div class="item">
+                    <img src="./images/s5-2.jpeg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>#73: Hotel Of Horrors (Serial Killer - H. H. Holmes)</h4>
+                    <p>Jun 2021.93 min</p>
+                </div>
+                <!-- 3rd item -->
+                <div class="item">
+                    <img src="./images/s5-3.jpeg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Anubis : God of Death - Part 2</h4>
+                    <p>Jun 2021.16 min</p>
+                </div>
+                <!-- 4th item -->
+                <div class="item">
+                    <img src="./images/s5-3.jpeg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Anubis : God of Death - Part 1</h4>
+                    <p>Jun 2021.13 min</p>
+                </div>
+                <!-- 5th item -->
+                <div class="item">
+                    <img src="./images/s5-5.jpeg" alt="">
+                    <div class="play-btn">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Ep 8 - Ye Na Thi Hamari Qismat</h4>
+                    <p>Aug 2020.3 min</p>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+         <div class="footer-section">
+            <div class="footer">
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <div>Company</div>
+                        <ul class="col-link">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Job</a></li>
+                            <li><a href="#">For the Record</a></li>
+
+                        </ul>
+                    </div>
+                    <!-- 2 -->
+                    <div class="footer-col">
+                        <div>Communities</div>
+                        <ul class="col-link">
+                            <li><a href="#">For Artists</a></li>
+                            <li><a href="#">Developers</a></li>
+                            <li><a href="#">Advertising</a></li>
+                            <li><a href="#">Investors</a></li>
+                            <li><a href="#">Vendors</a></li>
+
+                        </ul>
+                    </div>
+                    <!-- 3 -->
+                    <div class="footer-col">
+                        <div>Useful links</div>
+                        <ul class="col-link">
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Free Mobile App</a></li>
+                        
+                        </ul>
+                    </div>
+                    <!-- 4 -->
+                    <div class="footer-col">
+                        <div>Spotify Plans</div>
+                        <ul class="col-link">
+                            <li><a href="#">Premium Individual </a></li>
+                            <li><a href="#">Premium Duo</a></li>
+                            <li><a href="#">Premium Family</a></li>
+                            <li><a href="#">Premium Student</a></li>
+                            <li><a href="#">Spotify Free</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                 <!-- social media links -->
+             <div class="social-links">
+                <div>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+             </div>
+            </div>
+         </div>
+         <hr>
+         <div>
+            <p class="copy-right">
+                &copy; 2024 Spotify AB
+            </p>
+         </div>
+    </div>
+
+    <div class="preview">
+        <div class="text">
+            <h4>Preview of Spotify</h4>
+            <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+        </div>
+        <div class="button">
+            <button>Sign up free</button>
+        </div>
+    </div>
+</body>
+</html>
